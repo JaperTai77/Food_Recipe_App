@@ -1,0 +1,18 @@
+[project]
+name = "github-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "accelerate>=1.3.0",
+    "diffusers>=0.32.2",
+    "dotenv>=0.9.9",
+    "fastapi>=0.115.8",
+    "langchain-ollama>=0.2.3",
+    "langchain-openai>=0.3.27",
+    "ollama>=0.4.7",
+    "torch>=2.6.0",
+    "transformers>=4.48.2",
+    "uvicorn>=0.34.0",
+]

@@ -1,0 +1,145 @@
+body {
+    background-color: #f0f7f7;
+    margin: 0px;
+    padding: 5px;
+  }
+.userinterface {
+    /* Center positioning */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    /* Container styling */
+    max-width: 800px;
+    width: 90%;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    
+    /* Text styling */
+    text-align: center;
+}
+
+.userinterface h2 {
+    color: #333;
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+    line-height: 1.2;
+    margin-top: 0.2rem;
+}
+
+.userinterface input {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.userinterface input:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.3);
+}
+.userinterface button {
+    margin-top: 0.6rem;
+    width: 20%;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: #d3d3d3;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.userinterface button:hover {
+    background-color: #848484;
+}
+footer {
+    /* Position at bottom */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    
+    /* Center content */
+    text-align: center;
+    
+    /* Styling */
+    padding: 0.3rem;
+    background-color: white;
+    border-top: 1px solid #ddd;
+}
+
+footer p {
+    margin: 0;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.canvas-container {
+    /* Add to existing styles */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    max-height: 80vh;
+    overflow-y: auto;
+    background-color: antiquewhite;
+}
+
+.markdown-content {
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.markdown-content h1, 
+.markdown-content h2, 
+.markdown-content h3 {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+.markdown-content ul, 
+.markdown-content ol {
+    padding-left: 20px;
+}
+
+.markdown-content code {
+    background: #f0f0f0;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+.canvas-container img {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.canvas-container p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    color: black
+}
+
+.close-button:hover {
+    background-color: rgb(214, 59, 90);
+}
