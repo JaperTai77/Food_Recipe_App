@@ -1,4 +1,4 @@
-from utility.langchain_ollama import run_ollama_chain
+from utility.openai_chain import run_openai_chain
 
 
 class CuisineRepository:
@@ -11,5 +11,5 @@ class CuisineRepository:
         """
 
     def chat(self):
-        response = run_ollama_chain(self.system_prompt, self.user_prompt, t=0.6)
+        response = run_openai_chain(self.system_prompt, self.user_prompt, t=0.6)
         return response

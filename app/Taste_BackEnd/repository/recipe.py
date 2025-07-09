@@ -1,4 +1,4 @@
-from utility.langchain_ollama import run_ollama_chain
+from utility.openai_chain import run_openai_chain
 
 
 class RecipeRepository:
@@ -17,7 +17,7 @@ class RecipeRepository:
 
         Next, list the key ingredients typically needed for a representative dish from this cuisine. Be comprehensive but don't go overboard - we're not stocking a whole grocery store here!
 
-        Then, provide a step-by-step guide to create a typical dish from this cuisine. Make your instructions clear and easy to follow, but inject some humor into each step.
+        Then, provide a step-by-step guide to create a typical dish from this cuisine. Make your instructions clear and easy to follow, but inject some humor into each step. Do not include any step number or bullet points in cooking_guide, seperate the steps with space (\n) only.
 
         Remember to keep your tone light and funny throughout, but ensure your information is accurate and helpful. Format your response clearly, using line breaks and bullet points where appropriate.
 
@@ -52,5 +52,5 @@ class RecipeRepository:
         """
 
     def chat(self):
-        response = run_ollama_chain(self.system_prompt, self.user_prompt, t=0.6)
+        response = run_openai_chain(self.system_prompt, self.user_prompt, t=0.3)
         return response

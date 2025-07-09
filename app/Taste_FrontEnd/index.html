@@ -8,18 +8,46 @@
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
-    <div class="page">
-        <div class="row">
-            <div class="userinterface">
-                <h2>Write something. What are you in the mood for or what kind of cuisine do you want?</h2>
-                <input id="userInput" type="text" placeholder="Enter something here...">
-                <button id="submit">Recommend Me</button>
+    <div class="container">
+        <!-- Chef illustration and welcome message -->
+        <div class="chef-section">
+            <div class="chef-illustration">
+                <div class="chef-face">
+                    <div class="eyes">
+                        <div class="eye left-eye"></div>
+                        <div class="eye right-eye"></div>
+                    </div>
+                    <div class="smile"></div>
+                </div>
+            </div>
+            <div class="welcome-message">
+                <h1>Welcome to Taste Finder 🤗</h1>
+                <p>Tell me how you're feeling today, and I'll recommend a dish for you! 🍽️</p>
             </div>
         </div>
-        <footer>
-            <p>&copy; Jasper Tai 2025</p>
-        </footer>
+
+        <!-- Search section -->
+        <div class="search-section">
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="How are you feeling? (e.g., tired for the day)" />
+                <button id="submitBtn" type="button">Find My Food!</button>
+            </div>
+        </div>
     </div>
+
+    <!-- Recipe modal -->
+    <div id="recipeModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" id="closeBtn">&times;</span>
+            <div id="recipeContent"></div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; Jasper Tai 2025</p>
+    </footer>
+    
+    <script src="config.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
