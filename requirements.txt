@@ -1,0 +1,4 @@
+dotenv>=0.9.9
+fastapi>=0.115.8
+openai>=1.93.1
+uvicorn>=0.34.0
