@@ -1,4 +1,4 @@
-from utility.openai_chain import run_openai_chain
+from app.Taste_BackEnd.utility.openai_chain import run_openai_chain
 
 
 class RecipeRepository:

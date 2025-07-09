@@ -2,8 +2,8 @@ from fastapi import APIRouter
 from fastapi.encoders import jsonable_encoder
 from fastapi.responses import JSONResponse
 
-from repository.cuisine import CuisineRepository
-from model.cuisine import Cuisine, Response
+from app.Taste_BackEnd.repository.cuisine import CuisineRepository
+from app.Taste_BackEnd.model.cuisine import Cuisine, Response
 
 router = APIRouter(
     prefix="/cuisine",

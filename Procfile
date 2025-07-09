@@ -1,2 +1,1 @@
-cd app/Taste_Backend
-uvicorn app:app --port 8000 --host 0.0.0.0 
+web: uvicorn app.Taste_BackEnd.main:app --port 8000 --host 0.0.0.0

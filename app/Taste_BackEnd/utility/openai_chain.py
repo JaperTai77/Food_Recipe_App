@@ -1,6 +1,6 @@
 from openai import OpenAI
 
-from core.config import Variable
+from app.Taste_BackEnd.core.config import Variable
 
 def run_openai_chain(system_prompt:str, user_prompt:str, t:float=0.7)->str:
     client = OpenAI()

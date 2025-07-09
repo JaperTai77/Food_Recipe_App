@@ -1,12 +1,9 @@
 from fastapi import FastAPI
 from starlette.middleware.cors import CORSMiddleware
 from fastapi.responses import HTMLResponse
-from dotenv import load_dotenv
 
-load_dotenv()
-
-from routers import recipe, cuisine
-from core.config import Variable
+from app.Taste_BackEnd.routers import recipe, cuisine
+from app.Taste_BackEnd.core.config import Variable
 
 app = FastAPI(
     title = "Taste Application",
