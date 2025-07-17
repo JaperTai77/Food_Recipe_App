@@ -8,6 +8,10 @@ Taste Finder is a web application designed to recommend dishes based on how user
 - **Two-step Backend Process**: First recommends a cuisine, then provides a recipe for that cuisine.
 - **Separation of Backend and Frontend**: FastAPI backend (Python) and static frontend (HTML/JS/CSS).
 
+## Demo Deployment
+
+The app is deployed for demonstration at: [https://tasteappweb0709-9753741666ed.herokuapp.com](https://tasteappweb0709-9753741666ed.herokuapp.com)
+
 ## File Structure
 
 ```
