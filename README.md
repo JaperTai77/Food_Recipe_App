@@ -10,7 +10,7 @@ Taste Finder is a web application designed to recommend dishes based on how user
 
 ## Demo Deployment
 
-The app is deployed for demonstration at: [https://tasteappweb0709-9753741666ed.herokuapp.com](https://tasteappweb0709-9753741666ed.herokuapp.com)
+The app is deployed for demonstration at: [https://tasteappweb0709-9753741666ed.herokuapp.com](https://tasteapp0217web-c45a1e497916.herokuapp.com/)
 
 ## File Structure
 
